@@ -4,6 +4,7 @@ Set the number of deployment replicas to 3.
 Use chart version 15.5.2.
 Expose the service as NodePort with the external port set to 30007.
 Provide the Helm command(s) you used and the output in q3-install.txt
+
 Task 2: Upgrade the Release
 Upgrade the Helm release deployed above to chart version 15.5.3 and apply the following changes:
 Change the service type from NodePort to ClusterIP.
